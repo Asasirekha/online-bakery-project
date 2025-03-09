@@ -1,0 +1,88 @@
+h2::first-letter{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#2D2161;
+    
+}
+h2{
+    letter-spacing: 8px;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+    width: auto;
+    height:40px;
+    background-color: #2D2161;
+    color: white;
+    text-align: center;
+}
+#allCakes{
+    display: flex;
+}
+#allCookie{
+    display:flex;
+}
+#allMock{
+    display: flex;
+}
+#cakes{
+    padding:25px;
+    width:250px;
+    height:350px;
+    border: 2px solid #2D2161;
+    border-radius: 9px;
+    align-items: center;
+    justify-content: center;
+    /* display:grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-left:14%; */
+    margin-left:10%;
+}
+img{
+    width:200px;
+    height:200px;
+    align-items: center;
+    padding-left: 10%;
+}
+#qtn{
+    color:black;
+}
+
+#qtn input{
+    border:2px solid black;
+}
+#qtn input label{
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    background-color: #2D2161;
+    color:white;
+    border: 2px solid #2D2161;
+    font-size: 25px;
+    border-radius: 9px;
+    padding:10px;
+    margin-left: 20%;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+h1::first-letter{
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: #2D2161;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

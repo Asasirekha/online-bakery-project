@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="order.js" defer></script>
+</head>
+<body>
+    <div id="bestSeller">
+        <h1 id="bseller">Best Seller</h1>
+        <div class="row1">
+            <!-- Repeat this block for each item -->
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="choco-truffle.png" alt="Chocolate Truffle Cake"></a>
+                <div id="qtn">
+                    <p class="cname">Chocolate Truffle Cake</p>
+                    <p class="rupees">&#8377;547</p>
+                    <p class="rating">4.9&#11088;(2133)</p>
+                    <label>Quantity</label>
+                    <input type="number" name="quantity" min="1" max="10" value="1">
+                    <button onclick="addToCart('Chocolate Truffle Cake', 547)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="choco-vanilla.png"></a>
+                <div id="qtn">
+                        <p class="cname">chocolate Vanilla cake</p>
+                        <p class="rupees">&#8377;690</p>
+                        <p class="rating">4.2&#11088;(1034)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" max="10"><br><br>
+                        <button onclick="addToCart('chocolate Vanilla cake', 690)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="chocolate-chip.png"></a>
+                <div id="qtn">
+                        <p class="cname">chocolate chip cake</p>
+                        <p class="rupees"> &#8377;960</p>
+                        <p class="rating">4.1&#11088;(1036)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1"  max="10"><br><br>
+                        <button onclick="addToCart('chocolate chip cake', 960)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="black-forest.png"></a>
+                <div id="qtn">
+                        <p class="cname">Black Forest cake</p>
+                        <p class="rupees"> &#8377;500</p>
+                        <p class="rating">4.1&#11088;(1036)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('Black Forest cake', 500)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- End item block -->
+            <!-- Add more items similarly -->
+        </div>
+        <div class="row2 row1">
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="kitkat-chocolate.png"></a>
+                <div id="qtn">
+                        <p class="cname">Kitkat chocolate cake</p>
+                        <p class="rupees"> &#8377;1050</p>
+                        <p class="rating">4.9&#11088;(2133)</p>
+                         <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('Kitkat chocolate cake', 1050)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="pista-topped.png"></a>
+                <div id="qtn">
+                        <p class="cname">Pista pista-topped cake</p>
+                        <p class="rupees"> &#8377;1300</p>
+                        <p class="rating">4.7&#11088;(1102)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('Pista pista-topped cake', 1300)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="fresh-fruit.png"></a>
+                <div id="qtn">
+                        <p class="cname">Fresh-fruit cake</p>
+                        <p class="rupees"> &#8377;790</p>
+                        <p class="rating">4.3&#11088;(1678)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('Fresh-fruit cake', 790)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="sq-pineapple.png"></a>
+                <div id="qtn">
+                        <p class="cname">sq-pineapple cake</p>
+                        <p class="rupees"> &#8377;680</p>
+                        <p class="rating">4.8&#11088;(1345)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('sq-pineapple cake', 680)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row2 row1">
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="strawberrycake.jpg"></a>
+                <div id="qtn">
+                        <p class="cname">strawberry cake</p>
+                        <p class="rupees"> &#8377;900</p>
+                        <p class="rating">4.9&#11088;(1043)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('strawberry cake', 900)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="choc.png"></a>
+                <div id="qtn">
+                        <p class="cname">chocolate cake</p>
+                        <p class="rupees"> &#8377;1300</p>
+                        <p class="rating">4.7&#11088;(1102)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('chocolate cake', 1300)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="bb.png"></a>
+                <div id="qtn">
+                        <p class="cname">Blueberrycake cake</p>
+                        <p class="rupees"> &#8377;790</p>
+                        <p class="rating">4.3&#11088;(1678)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('Blueberrycake cake', 790)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="red-velvet.png"></a>
+                <div id="qtn">
+                        <p class="cname">Red-velvet cake</p>
+                        <p class="rupees"> &#8377;1450</p>
+                        <p class="rating">4.8&#11088;(1345)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('Red-velvet cake', 1450)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <h1 id="bseller">Mocktails</h1>
+        <div class="row2 row1">
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="strhoney.png"></a>
+                <div id="qtn">
+                        <p class="cname">strawberry Honey Mocktail</p>
+                        <p class="rupees"> &#8377;350</p>
+                        <p class="rating">4.5&#11088;(1143)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('strawberry Honey Mocktail', 350)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="lemon.png"></a>
+                <div id="qtn">
+                        <p class="cname">Lemon Soda</p>
+                        <p class="rupees"> &#8377;125</p>
+                        <p class="rating">4.7&#11088;(890)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('Lemon Soda', 125)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="pineapple.png"></a>
+                <div id="qtn">
+                        <p class="cname">Pineapple Mocktail</p>
+                        <p class="rupees"> &#8377;180</p>
+                        <p class="rating">4.3&#11088;(1178)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('Pineapple Mocktail', 180)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="chocolate.png"></a>
+                <div id="qtn">
+                        <p class="cname">Chocolate Fake-tini</p>
+                        <p class="rupees"> &#8377;380</p>
+                        <p class="rating">4.2&#11088;(945)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('Chocolate Fake-tini', 380)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row2 row1">
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="cranberry.png"></a>
+                <div id="qtn">
+                        <p class="cname">Cranberry Rosemerry Mocktail</p>
+                        <p class="rupees"> &#8377;230</p>
+                        <p class="rating">4.7&#11088;(1183)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('Cranberry Rosemerry Mocktail', 230)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="mango.png"></a>
+                <div id="qtn">
+                        <p class="cname">Mango Mocktail</p>
+                        <p class="rupees"> &#8377;185</p>
+                        <p class="rating">4.9&#11088;(1900)</p>
+                    <label>quantity</label>
+                    <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                    <button onclick="addToCart('Mango Mocktail', 185)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="watermelon.png"></a>
+                <div id="qtn">
+                        <p class="cname">watermelon Mocktail</p>
+                        <p class="rupees"> &#8377;130</p>
+                        <p class="rating">4.8&#11088;(878)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('watermelon Mocktail', 130)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="order1.html"><img class="best1" src="strawbecucum.png"></a>
+                <div id="qtn">
+                        <p class="cname">strawberry cucumber Mocktail</p>
+                        <p class="rupees"> &#8377;340</p>
+                        <p class="rating">4.2&#11088;(745)</p>
+                        <label>quantity</label>
+                        <input type="number" name="quantity" value="1" min="0" max="3"><br><br>
+                        <button onclick="addToCart('strawberry cucumber Mocktail', 340)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+    <div id="orderItems"></div>
+</body>
+</html>

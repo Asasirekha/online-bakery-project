@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Confirm Order</h2>
+        <div>
+            <p><strong>Cake Name:</strong> Chocolate Cake</p>
+            <p><strong>Price:</strong> $25.00</p>
+        </div>
+        <form action="process_order.php" method="POST">
+            <input type="hidden" name="cakename" value="Chocolate Cake">
+            <input type="hidden" name="price" value="25.00">
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+</body>
+</html>
